@@ -1,0 +1,8 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - docker build -t datencia/ionic .
+  - docker run datencia/ionic /bin/sh -c "ionic -v && cordova -v && google-chrome --version"
