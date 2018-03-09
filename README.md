@@ -18,6 +18,7 @@
 - Ionic 3.19.1
 - Cordova 8.0.0
 - Google Chrome Headless for unit tests
+- xvfb for e2e tests (Cypress & TestCafé)
 
 ## Usage
 

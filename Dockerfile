@@ -7,7 +7,21 @@ ENV IONIC_VERSION=3.19.1 \
 
 RUN echo "Installing basics" && \
     apt-get -qq update && \
-    apt-get -qq install -y wget --no-install-recommends && \
+    apt-get -qq install -y \
+        wget \
+        xvfb \
+        x11-utils \
+        dbus \
+        udev \
+        ttf-freefont \
+        fluxbox \
+        libgtk2.0-0 \
+        libnotify-dev \
+        libgconf-2-4 \
+        libnss3 \
+        libxss1 \
+        libasound2 \
+        --no-install-recommends && \
     echo "Installing Chrome" && \
     wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
     echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list && \
