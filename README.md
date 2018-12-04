@@ -2,7 +2,7 @@
 
 # Minimal docker image for Ionic projects to get CI
 
-> based on [datencia/nodejs](https://hub.docker.com/r/datencia/nodejs/)
+> based on [node:8.14.0](https://hub.docker.com/_/node/)
 
 ## Inspired by
 
@@ -12,9 +12,9 @@
 
 ## Features
 
-- Node 6
-- Npm 5.6.0
-- Yarn 1.3.2
+- Node 8.14.0
+- Npm 6.4.1
+- Yarn 1.12.3
 - Ionic 3.19.1
 - Cordova 8.0.0
 - Google Chrome Headless for unit tests

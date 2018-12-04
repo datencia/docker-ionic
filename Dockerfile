@@ -1,6 +1,6 @@
-FROM datencia/nodejs
+FROM node:8.14.0
 
-LABEL maintainer="david.atencia@gmail.com"
+LABEL maintainer="David Atencia <david.atencia@gmail.com>"
 
 ENV IONIC_VERSION=3.19.1 \
     CORDOVA_VERSION=8.0.0
