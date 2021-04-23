@@ -2,7 +2,7 @@
 
 # Minimal docker image for Ionic projects to get CI
 
-> based on [node:8.14.0](https://hub.docker.com/_/node/)
+> based on [node:10.24.0](https://hub.docker.com/_/node/)
 
 ## Inspired by
 
@@ -12,13 +12,12 @@
 
 ## Features
 
-- Node 8.14.0
-- Npm 6.4.1
+- Node 10.24.0
+- Npm 6.14.11
 - Yarn 1.12.3
-- Ionic 3.19.1
-- Cordova 8.0.0
+- Ionic 6.12.3
+- Cordova 10.0.0
 - Google Chrome Headless for unit tests
-- xvfb for e2e tests (Cypress & TestCafé)
 
 ## Usage
 
