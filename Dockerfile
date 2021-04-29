@@ -8,6 +8,7 @@ ENV IONIC_VERSION=6.12.3 \
 RUN echo "Installing basics" && \
     apt-get -qq update && \
     apt-get -qq install -y \
+        procps \
         git \
         wget \
         unzip \
